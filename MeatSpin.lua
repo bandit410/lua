@@ -3,17 +3,15 @@ local html = vgui.Create"HTML"
 html:Dock(FILL)
 html:MakePopup()
 html:SetMouseInputEnabled( false )
-html:SetHTML[[
-				<html><head><style>
-					body {
-						background-image: url(https://images.encyclopediadramatica.rs/3/3d/Meatspin.gif);
-						background-size: contain;
-						background-position: center;
-						background-repeat: no-repeat;
-						background-color: RGB(0, 0, 0);
-					}
-				</style></head></html>
-			]]
+html:SetHTML[[ <style>
+			body {
+				background-image: url(https://images.encyclopediadramatica.rs/3/3d/Meatspin.gif);
+				background-size: contain; 
+				background-position: center;
+				background-repeat: no-repeat;
+				background-color: RGB(0, 0, 0);
+			}
+		</style> ]]
 
 html.Think = function()
 
