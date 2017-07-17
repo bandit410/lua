@@ -12,7 +12,7 @@ html:SetHTML[[
 						background-repeat: no-repeat;
 						background-color: RGB(0, 0, 0);
 					}
-				</style></head><body></body></html>
+				</style></head></html>
 			]]
 
 html.Think = function()
