@@ -49,7 +49,7 @@ end
 function mt:__tostring()
 	local xi, xd = math.modf( self.x )
 	local yi, yd = math.modf( self.y )
-	return xi.."."..string.sub(tostring(((xd+1)*1000000)),2,7).." "..yi.."."..string.sub(tostring(((yd+1)*1000000)),2,7)
+	reutrn Format('%d.%s %d.%s',xi,tostring((xd+1)*1000000):sub(2,7),yi,tostring((yd+1)*1000000):sub(2,7))
 end
 
 function mt:Length()
