@@ -1,9 +1,7 @@
 
 --hook.Add('Initialize',"InitTab",function()
 
-local ApiURL = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=C9E4E47AB57681D140D9924A16196EC8&steamids=76561198001328021"
-
---local LoadingMat = url_tex.Image'http://www.iguides.ru/forum/imagehosting/2011/05/08/853174dc624e58f3bd.png'
+--local ApiURL = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=C9E4E47AB57681D140D9924A16196EC8&steamids=76561198001328021"
 
 local list ={
   banni = -1,
